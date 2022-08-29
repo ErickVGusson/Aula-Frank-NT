@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,20 +10,22 @@
 
 <body>
 
-    <button onclick="calcular()">Qual a sua idade?</button>
+    <button onclick="calcular()">Qual seu nome e idade?</button>
 
     <script>
 
         function calcular() {
 
+            var nome = window.prompt(`Seu nome é:`)
+
             var ano = new Date().getFullYear()
-            var n2 = Number(window.prompt(`Sua idade é:`))
+            var idade = Number(window.prompt(`Sua idade é:`))
 
-            var resultado = ano - n2
+            var resultado = ano - idade
+            var meses = idade * 12
+            var dias = idade * 365.25
 
-            document.write(`
-                O ano em que nasceu é ${resultado}
-            `)
+            document.write(`Olá ${nome} <br> O ano em que nasceu é ${resultado} <br> Você teve aproximadamente ${meses} meses <br> Você teve aproximadamente ${dias} dias de vida <br> `)
 
         }
 
