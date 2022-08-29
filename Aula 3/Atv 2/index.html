@@ -6,11 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 3 - 2</title>
+
+    <style>
+
+        body {
+            width: 1280px;
+            height: 100vh;
+            margin: 0 auto;
+            display: grid;
+            place-items: center;
+        }
+
+        button {
+            padding: 15px 20px;
+            background-color: red;
+            color: white;
+        }
+
+        
+
+    </style>
+
 </head>
 
 <body>
 
-    <button onclick="calcular()">Qual seu nome e idade?</button>
+    <button onclick="calcular()"">Qual seu nome e idade?</button>
 
     <script>
 
@@ -25,7 +46,7 @@
             var meses = idade * 12
             var dias = idade * 365.25
 
-            document.write(`Olá ${nome} <br> O ano em que nasceu é ${resultado} <br> Você teve aproximadamente ${meses} meses <br> Você teve aproximadamente ${dias} dias de vida <br> `)
+            document.write(`<div style=" display: grid; place-items: center; width: 80%; height: 100vh; margin: 0 auto;"><h1> Olá <strong style="color: red">${nome}</strong> <br> O ano em que nasceu é <strong style="color: red">${resultado}</strong> <br> Você teve aproximadamente <strong style="color: red">${meses}</strong> meses <br> Você teve aproximadamente <strong style="color: red">${dias}</strong> dias de vida <br> </h1></div>`)
 
         }
 
