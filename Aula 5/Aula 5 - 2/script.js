@@ -9,7 +9,7 @@ function verificar() {
         document.querySelector('p').innerHTML = `O aluno esta aprovado.`
     }
     else if (media >= 10) {
-        document.querySelector('p').innerHTML = `O aluno tirou a nota <strong style="color: red;">${media}</strong> e esta aprovado com distinção.`
+        document.querySelector('p').innerHTML = `O aluno tirou a nota <strong>${media}</strong> e esta aprovado com distinção.`
     }
     else {
         document.querySelector('p').innerHTML = `O aluno esta reprovado.`
