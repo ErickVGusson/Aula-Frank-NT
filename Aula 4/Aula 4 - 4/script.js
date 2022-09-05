@@ -8,14 +8,14 @@ const milisegundo = document.getElementById('milisegundo')
 const relogio = setInterval(function time() {
     let dateToday = new Date();
     let ano = dateToday.getFullYear();
-    let mes = dateToday.getMonth();
+    let mes = dateToday.getMonth() + 1;
     let dia = dateToday.getDate();
     let hr = dateToday.getHours();
     let min = dateToday.getMinutes();
     let s = dateToday.getSeconds();
     let ml = dateToday.getMilliseconds();
 
-    if (mes < 10) mes = '0' + parseInt(mes + 1);
+    if (mes < 10) mes = '0' + mes;
 
     if (dia < 10) dia = '0' + dia;
 
