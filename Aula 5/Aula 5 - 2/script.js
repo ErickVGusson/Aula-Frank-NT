@@ -1,5 +1,5 @@
-function calcular() {
-
+function verificar() {
+    
     var nota1 = Number(document.getElementsByTagName('input')[0].value)
     var nota2 = Number(document.getElementsByTagName('input')[1].value)
 
