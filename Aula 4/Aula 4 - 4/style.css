@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .relogio {
@@ -19,10 +20,15 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 200px;
-    width: 1250px;
+    width: 750px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.calendario {
+    width: 550px;
 }
 
 .relogio div {
