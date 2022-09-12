@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+#container {
+    width: 450px;
+    padding: 20px;
+    background-color: #fc3;
+}
+
+#titulo {
+    padding: 10px;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: large;
+}
+
+#link_abre {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+a:link, a:visited {
+    color: #000;
+    border: #ff9900 1px solid;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: #ff9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    border: #ff9900 1px solid;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: #000;
+    text-decoration: none;
+}
