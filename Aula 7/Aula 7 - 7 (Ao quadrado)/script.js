@@ -12,6 +12,6 @@ function calcular() {
     let c4 = Math.pow(n4, 2)
     let c5 = Math.pow(n5, 2)
 
-    document.getElementById('resultado').innerHTML = `<p>O primeiro número deu <strong>${c1}</strong><br> O segundo <strong>${c2}</strong><br> O terceiro <strong>${c3}</strong><br> O quarto deu <strong>${c4}</strong><br> O quinto <strong>${c5}</strong></p>`
+    document.getElementById('resultado').innerHTML = `<p> 1º: <strong>${c1}</strong><br> 2º: <strong>${c2}</strong><br> 3º: <strong>${c3}</strong><br> 4º: <strong>${c4}</strong><br> 5º: <strong>${c5}</strong></p>`
 
 }
