@@ -1,6 +1,6 @@
 function qual() {
-    let gasolina =  5.17;
-    let etanol = 3.71; 
+    let gasolina = Number(document.getElementById('gasolina').value);
+    let etanol = Number(document.getElementById('etanol').value);
 
     let soma = etanol / gasolina
 
