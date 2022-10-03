@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    width: 360px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.container {
+    display: grid;
+    gap: 25px 0 ;
+}
+
+img {
+    width: 200px;
+}
