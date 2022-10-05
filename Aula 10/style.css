@@ -10,6 +10,11 @@
     --text-color: #c1121f;
 }
 
+body {
+    width: max(50%, 500px);
+    margin: 0 auto;
+}
+
 .primario {
     margin: 0 auto;
     padding: 20px 0;
