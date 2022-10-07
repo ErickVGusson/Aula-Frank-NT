@@ -10,7 +10,7 @@ html {
     text-align: center;
     text-decoration: none;
     list-style: none;
-    font-size: calc(20px + (30px - 20px) * (100vw - 400px) / (1440 - 400) );
+    font-size: calc(20px + (30px - 20px) * (100vw - 400px) / (1440 - 400));
 }
 
 nav {
@@ -94,7 +94,7 @@ main {
     transform: scale(1.01);
 }
 
-.box{
+.box {
     margin: 5px;
     padding: 10px 0;
     border: 1px solid black;
@@ -151,7 +151,7 @@ footer a:hover {
     header {
         margin: 60px auto 20px;
     }
-    
+
     main {
         display: flex;
         flex-direction: column;
@@ -165,4 +165,4 @@ footer a:hover {
     form {
         width: 90%;
     }
-  }
+}
