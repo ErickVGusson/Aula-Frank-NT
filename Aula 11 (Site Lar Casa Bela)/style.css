@@ -116,3 +116,7 @@ main div {
 main div h1 {
     color: #23ADD9;
 }
+
+main div img {
+    margin-bottom: 30px;
+}
