@@ -1,0 +1,12 @@
+.foto-capa {
+    width: 100vw;
+}
+
+.main div {
+    background-image: url(img/fundo.png);
+}
+
+.title {
+    color: #992D19;
+    font-size: 50px;
+}
