@@ -1,0 +1,34 @@
+
+
+.menu {
+    background-image: url(/Aula\ 11\ \(Briefing\)/img/fundo.png);
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #992D19;
+    margin-bottom: 1.3%;
+}
+
+.menu-itens {
+    display: flex;
+}
+
+.menu-itens div {
+    background-color: #1d1d1d;
+    margin: 0 5%;
+    padding: 2%;
+
+    width: 500px;
+}
+
+.menu-itens div h1 {
+    margin-bottom: 20px;
+}
+
+.menu-itens div a {
+    color: white;
+}

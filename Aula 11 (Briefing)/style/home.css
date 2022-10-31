@@ -2,11 +2,73 @@
     width: 100vw;
 }
 
-.main div {
-    background-image: url(img/fundo.png);
+.quem-somos {
+    background-image: url(/Aula\ 11\ \(Briefing\)/img/fundo.png);
+    padding: 5vh 0;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.quem-somos p {
+    width: 75vw;
+    font-size: 35px;
 }
 
 .title {
     color: #992D19;
     font-size: 50px;
+    font-family: 'Lily Script One', cursive;
+}
+
+.estrelas img {
+    width: 5vw;
+}
+
+.especial-do-dia {
+    background-color: #1d1d1d;
+    padding: 15% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title2 {
+    color: #EFE7D0;
+    font-size: 50px;
+    font-family: 'Lily Script One', cursive;
+    margin-bottom: 10vh;
+}
+
+.dia-itens {
+    display: flex;
+    gap: 5vw;
+}
+
+.dia-itens div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.dia-itens div h1 {
+    color: #992D19;
+    font-size: 50px;
+    margin: 10% 0;
+}
+
+.dia-itens div h2 {
+    color: #EFE7D0;
+    font-size: 35px;
+}
+
+.dia-itens div img {
+    margin-top: 10%;
+    height: 25vh;
 }

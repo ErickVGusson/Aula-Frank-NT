@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +11,30 @@
     font-family: 'Lora', serif;
 }
 
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: white #1d1d1d;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #1D1D1D;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 2px;
+}
+
 body {
     overflow-x: hidden;
 }
+
 
 nav {
     background-color: #1D1D1D;
@@ -40,6 +63,11 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
+    border-top: 1px solid white;
+}
+
+footer ul {
+    margin: 0 20px;
 }
 
 footer ul a {
